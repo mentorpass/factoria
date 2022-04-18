@@ -1,5 +1,5 @@
 {
-  "name": "factoria",
+  "name": "@LawsonTaylor/factoria",
   "version": "0.0.0-development",
   "description": "Simplistic model factory for Node/JavaScript",
   "license": "MIT",
