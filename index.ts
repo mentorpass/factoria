@@ -37,7 +37,7 @@ const resolveOverrides = <T>(overrides: Factoria.Overrides<T>): Object => {
 const generate = <T>(
   name: string,
   overrides: Factoria.Overrides<T> = {},
-  states: string[],
+  states: string[]
 ): T => {
   // back up the global applied states so that they won't tamper the recursive calls to sub-models (if any)
   const statesBackup = appliedStates
@@ -111,7 +111,7 @@ factory.states = (...states) => {
 factory.define = <T>(
   name: string,
   attributes: (faker: Faker) => Factoria.Overrides<T>,
-  states: Record<string, Factoria.StateDefinition> = {},
+  states: Record<string, Factoria.StateDefinition> = {}
 ) => {
   definitions[name] = { attributes, states }
   return factory
