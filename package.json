@@ -64,5 +64,8 @@
   },
   "lint-staged": {
     "**/*.ts": "yarn lint"
+  },
+  "dependencies": {
+    "is-plain-object": "^5.0.0"
   }
 }
