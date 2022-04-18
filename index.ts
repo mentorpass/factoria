@@ -1,6 +1,6 @@
 import faker, { Faker } from '@faker-js/faker'
 import deepmerge from 'deepmerge'
-import isPlainObject from 'is-plain-object'
+import { isPlainObject } from 'is-plain-object'
 import { Factoria } from './types'
 
 const definitions: Record<
