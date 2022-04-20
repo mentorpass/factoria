@@ -1,4 +1,5 @@
-# factoria ![Main](https://github.com/phanan/factoria/workflows/Main/badge.svg) ![npm](https://img.shields.io/npm/v/factoria)
+# factoria ![Main](https://github.com/phanan/factoria/workflows/Main/badge.svg) [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+
 
 Simplistic model factory for Node/JavaScript, heavily inspired by Laravel's [Model Factories](https://laravel.com/docs/5.5/database-testing#writing-factories).
 
@@ -8,7 +9,7 @@ Simplistic model factory for Node/JavaScript, heavily inspired by Laravel's [Mod
 # install factoria
 $ yarn add factoria -D
 # install Faker as a peer dependency
-$ yarn add faker -D
+$ yarn add @faker-js/faker -D
 ```
 
 ## Usage
