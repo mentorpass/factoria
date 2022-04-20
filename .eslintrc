@@ -1,8 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
   "extends": [
-    "plugin:jest/recommended",
-		"standard"
+    "plugin:jest/recommended"
   ],
   "plugins": [
     "@typescript-eslint",
@@ -10,5 +9,10 @@
   ],
   "rules": {
     "no-unused-vars": 0
+  },
+  "ecmaVersion": 6,
+  "sourceType": "module",
+  "ecmaFeatures": {
+    "modules": true
   }
 }
